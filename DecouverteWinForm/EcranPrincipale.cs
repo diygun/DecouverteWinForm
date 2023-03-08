@@ -102,6 +102,12 @@ namespace DecouverteWinForm
             ecranExplorateurDeFichier.Show();
         }
 
+        private void mapsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var webnav = new EcranNavigateur();
+            webnav.Show();
+        }
+
 
 
 

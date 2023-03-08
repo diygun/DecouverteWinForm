@@ -15,6 +15,7 @@ namespace DecouverteWinForm
         public EcranNavigateur()
         {
             InitializeComponent();
+            chromiumWebBrowser.Load("https://www.google.com/maps/place/Rue+Sohet,+4000+Li%C3%A8ge/");
         }
     }
 }

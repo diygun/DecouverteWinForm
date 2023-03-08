@@ -51,6 +51,7 @@ namespace DecouverteWinForm
             this.Aide_Menu = new System.Windows.Forms.ToolStripMenuItem();
             this.Aide_APropos_Menu = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.mapsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -152,7 +153,8 @@ namespace DecouverteWinForm
             this.Application_Spirographe_Menu,
             this.Application_Horloge_Menu,
             this.Application_Monitoring_Menu,
-            this.Application_ExplorateurDeFichier_Menu});
+            this.Application_ExplorateurDeFichier_Menu,
+            this.mapsToolStripMenuItem});
             this.Application_Menu.Name = "Application_Menu";
             this.Application_Menu.Size = new System.Drawing.Size(85, 20);
             this.Application_Menu.Text = "Applications";
@@ -217,6 +219,13 @@ namespace DecouverteWinForm
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
+            // mapsToolStripMenuItem
+            // 
+            this.mapsToolStripMenuItem.Name = "mapsToolStripMenuItem";
+            this.mapsToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.mapsToolStripMenuItem.Text = "Maps";
+            this.mapsToolStripMenuItem.Click += new System.EventHandler(this.mapsToolStripMenuItem_Click);
+            // 
             // EcranPrincipale
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -278,6 +287,7 @@ namespace DecouverteWinForm
         private ToolStripMenuItem Application_Horloge_Menu;
         private ToolStripMenuItem Application_Monitoring_Menu;
         private ToolStripMenuItem Application_ExplorateurDeFichier_Menu;
+        private ToolStripMenuItem mapsToolStripMenuItem;
     }
 }
 
